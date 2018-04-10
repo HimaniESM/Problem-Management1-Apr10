@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open the 'Approval' form with id '{{invalid step_id=1a8a8ba64f5ddf0053c240f18110c74b.}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <order>11</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 10:54:06</sys_created_on>
+        <sys_id>a5bacba64f5ddf0053c240f18110c78a</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_atf_step_a5bacba64f5ddf0053c240f18110c78a</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 11:54:21</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="">b3580b264f5ddf0053c240f18110c774</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a5bacba64f5ddf0053c240f18110c78a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5bacba64f5ddf0053c240f18110c78a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 10:54:06</sys_created_on>
+        <sys_id>3bba0fa64f5ddf0053c240f18110c78f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 10:54:06</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5bacba64f5ddf0053c240f18110c78a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 10:54:06</sys_created_on>
+        <sys_id>77ba0fa64f5ddf0053c240f18110c78f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 10:54:06</sys_updated_on>
+        <value/>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a5bacba64f5ddf0053c240f18110c78a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 10:54:06</sys_created_on>
+        <sys_id>b3ba0fa64f5ddf0053c240f18110c78f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 10:54:06</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a5bacba64f5ddf0053c240f18110c78a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>a5bacba64f5ddf0053c240f18110c78a</id>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 10:54:06</sys_created_on>
+        <sys_id>7fba0fa64f5ddf0053c240f18110c78e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 10:54:06</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['1a8a8ba64f5ddf0053c240f18110c74b'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>a5bacba64f5ddf0053c240f18110c78a</id>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 10:54:06</sys_created_on>
+        <sys_id>33ba0fa64f5ddf0053c240f18110c78f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 10:54:06</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

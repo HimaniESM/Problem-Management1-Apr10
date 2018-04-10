@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open the 'Itsm_Pm' view of the 'RCA Template Table' form with id '{{invalid step_id=53a93aaa4f1ddf0053c240f18110c73a.}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 09:39:32</sys_created_on>
+        <sys_id>d3a93aaa4f1ddf0053c240f18110c743</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sys_atf_step_d3a93aaa4f1ddf0053c240f18110c743</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 09:40:59</sys_updated_on>
+        <table>x_infte_rca_templa_rca_template_table</table>
+        <test display_value="">8ba936aa4f1ddf0053c240f18110c7d3</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d3a93aaa4f1ddf0053c240f18110c743"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d3a93aaa4f1ddf0053c240f18110c743</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 09:39:32</sys_created_on>
+        <sys_id>1fa93aaa4f1ddf0053c240f18110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 09:39:32</sys_updated_on>
+        <value>x_infte_rca_templa_rca_template_table</value>
+        <variable display_value="">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d3a93aaa4f1ddf0053c240f18110c743</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 09:39:32</sys_created_on>
+        <sys_id>5ba93aaa4f1ddf0053c240f18110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 09:39:32</sys_updated_on>
+        <value>Itsm_Pm</value>
+        <variable display_value="">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d3a93aaa4f1ddf0053c240f18110c743</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 09:39:32</sys_created_on>
+        <sys_id>97a93aaa4f1ddf0053c240f18110c744</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 09:39:32</sys_updated_on>
+        <value/>
+        <variable display_value="">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3a93aaa4f1ddf0053c240f18110c743"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>d3a93aaa4f1ddf0053c240f18110c743</id>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-09 09:39:32</sys_created_on>
+        <sys_id>13a93aaa4f1ddf0053c240f18110c745</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-09 09:39:32</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['53a93aaa4f1ddf0053c240f18110c73a'].first_record}}</value>
+    </sys_element_mapping>
+</record_update>

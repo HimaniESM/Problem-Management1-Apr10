@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_ic_section">
+    <sc_ic_section action="INSERT_OR_UPDATE">
+        <index>0</index>
+        <label/>
+        <name>Section 1</name>
+        <sc_ic_item_staging display_value="Sample11">791f884f4fd5134053c240f18110c7ee</sc_ic_item_staging>
+        <sys_class_name>sc_ic_section</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-04-10 10:31:11</sys_created_on>
+        <sys_id>351f884f4fd5134053c240f18110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section 0</sys_name>
+        <sys_package display_value="ESM IT Problem Management" source="x_infte_esm_it_pro">6a7680d74f34530053c240f18110c7b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ESM IT Problem Management">6a7680d74f34530053c240f18110c7b6</sys_scope>
+        <sys_update_name>sc_ic_section_351f884f4fd5134053c240f18110c7f1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-10 10:31:11</sys_updated_on>
+    </sc_ic_section>
+    <sys_translated_text action="delete_multiple" query="documentkey=351f884f4fd5134053c240f18110c7f1"/>
+</record_update>
